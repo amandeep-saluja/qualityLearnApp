@@ -1,0 +1,28 @@
+.navbar {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: -32px auto 0px auto;
+
+    .logo > img{
+        height: auto;
+        width: 70%;
+    }
+
+    .navbar-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-weight: 600;
+    }
+    
+    .menu-items {
+        padding: 55px 0px 20px 25px;;
+    }
+
+    .login-btn {
+
+    }
+}
